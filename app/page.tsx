@@ -6,13 +6,13 @@ const menu = [
   {
     number: "01",
     name: "Caldo verde",
-    note: "A warming Portuguese classic",
+    note: "A warming potato and leek soup",
     mark: "leaf",
   },
   {
     number: "02",
     name: "Piri-piri chicken",
-    note: "Seasonal vegetables · fries",
+    note: "Served with seasonal vegetables and fries",
     mark: "pepper",
   },
   {
@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main className="site-shell">
       <div className="screen-bar" aria-label="Flyer actions">
-        <span className="screen-bar__hint">A one-night table, held close.</span>
+        <span className="screen-bar__hint">A one night, one table experience.</span>
         <button className="print-button" type="button" onClick={printFlyer}>
           Print / save flyer <span aria-hidden="true">↗</span>
         </button>
@@ -66,7 +66,6 @@ export default function Home() {
               <circle className="hero-art__pin-ring" cx="76" cy="128" r="17" />
               <circle className="hero-art__pin-ring hero-art__pin-ring--outer" cx="76" cy="128" r="27" />
               <circle className="hero-art__pin" cx="76" cy="128" r="5" />
-              <path className="hero-art__sun" d="M187 71v-12M187 95V83M163 83h12M198 83h12M170 66l8 8M196 92l8 8M204 66l-8 8M178 92l-8 8" />
             </svg>
           </div>
 
@@ -134,10 +133,6 @@ export default function Home() {
           </div>
         </section>
       </article>
-
-      <p className="screen-note">
-        Designed as a letter-size portrait flyer · use your browser&apos;s print dialog to save a PDF.
-      </p>
     </main>
   );
 }
