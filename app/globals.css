@@ -235,13 +235,17 @@ a {
   right: 7%;
   top: 12%;
   aspect-ratio: 260 / 420;
+  overflow: hidden;
+  padding: 1.5% 2% 0;
   transform: rotate(1deg);
 }
 
 .hero-art__map {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 94%;
+  object-fit: contain;
+  object-position: top center;
 }
 
 .hero-art__map-outline {
@@ -291,8 +295,11 @@ a {
 }
 
 .hero-art__caption {
-  position: relative;
-  margin: -2% 0 0 22%;
+  position: absolute;
+  right: 0;
+  bottom: 1%;
+  left: 22%;
+  margin: 0;
   color: rgba(243, 237, 223, 0.58);
   font-size: clamp(7px, 0.8vw, 9px);
   letter-spacing: 0.15em;
