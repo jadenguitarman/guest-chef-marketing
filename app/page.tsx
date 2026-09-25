@@ -1,5 +1,7 @@
 "use client";
 
+import PortugalMap from "@/components/PortugalMap";
+
 const menu = [
   {
     number: "01",
@@ -60,7 +62,7 @@ export default function Home() {
           </div>
 
           <div className="hero-art" aria-hidden="true">
-            <img className="hero-art__map-source" src="/portugal.svg" alt="" />
+            <PortugalMap className="hero-art__map-source" aria-hidden="true" />
             <svg className="hero-art__accents" viewBox="0 0 260 420" fill="none">
               <path className="hero-art__route" d="M76 128c42-18 85-14 125 5 20 10 34 24 45 41" />
               <path className="hero-art__route hero-art__route--soft" d="M76 128c49 2 95 19 135 49 15 11 26 24 35 39" />

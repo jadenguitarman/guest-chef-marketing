@@ -247,12 +247,11 @@ a {
   height: 94%;
   left: 2%;
   top: 1.5%;
-  object-fit: contain;
-  object-position: top center;
 }
 
 .hero-art__map-source {
-  filter: brightness(0) saturate(100%) invert(91%) sepia(9%) saturate(403%) hue-rotate(351deg) brightness(103%) contrast(94%);
+  display: block;
+  color: var(--paper);
   opacity: 0.82;
 }
 
