@@ -60,21 +60,20 @@ export default function Home() {
           </div>
 
           <div className="hero-art" aria-hidden="true">
-            <svg className="hero-art__map" viewBox="0 0 260 300" fill="none">
+            <svg className="hero-art__map" viewBox="0 0 260 420" fill="none">
               <title>Portugal, with Aveiro marked on the coast</title>
               <path
                 className="hero-art__map-outline"
-                d="M48 10c-8 14-9 27-5 41-8 16-8 29-2 43-10 14-8 29-2 40 7 13 7 23 2 37 9 14 8 28 14 41 9 14 11 24 18 31l22 1c14-3 24-9 34-20 10-10 14-23 22-34 7-11 15-22 10-33-6-13 2-25 7-37 4-14 0-27 6-38-9-10-9-23-16-33-10-11-15-23-20-34-12-1-22-6-34-12C74 2 59 3 48 10Z"
+                d="M70 17c-13-2-24 5-33 15-9 9-12 20-9 33l16 62c3 12 2 22-1 35l-15 74c-3 15-12 26-20 38-6 10-9 26-11 43-2 15 2 25 12 34l14 17c7 8 15 11 28 10 8 0 11 4 12 15l2 31c1 15-5 31-8 43-3 11-1 17 9 18l19-1c14 0 27 6 39 8 12 2 24-3 34-8 12-6 16-13 15-25-2-12 2-24 12-35l21-22c9-10 13-19 8-28-5-9-13-15-19-24-7-10-8-17-1-29l20-36c6-11 7-19 1-28l-36-47c-8-10-8-18 1-23l18-8c10-5 14-14 15-26l-2-30c0-11 3-19 10-27l20-20c11-11 19-25 21-36 2-9-4-17-13-24l-6-18c-3-9-10-13-22-15l-26-2c-13-1-23 3-34 10-11 7-20 9-32 9l-25 2c-12 1-15-4-15-14v-15c0-10-5-15-15-15l-10 1Z"
               />
-              <path className="hero-art__map-detail" d="M44 94c14 8 27 14 42 14 14 0 26 5 39 15M53 173c11 5 22 5 32 2 13-4 25-2 36 6M44 42c16 9 29 13 45 12 12-1 24 4 35 10" />
-              <path className="hero-art__route" d="M82 103c48-13 89-12 134 12 18 10 28 25 37 41" />
-              <path className="hero-art__route hero-art__route--soft" d="M82 103c57 5 104 27 145 62 13 11 22 23 28 35" />
-              <circle className="hero-art__pin-ring" cx="82" cy="103" r="17" />
-              <circle className="hero-art__pin-ring hero-art__pin-ring--outer" cx="82" cy="103" r="27" />
-              <circle className="hero-art__pin" cx="82" cy="103" r="5" />
-              <path className="hero-art__sun" d="M191 61v-12M191 85V73M167 73h12M202 73h12M174 56l8 8M200 82l8 8M208 56l-8 8M182 82l-8 8" />
-              <text className="hero-art__label" x="101" y="100">AVEIRO</text>
-              <text className="hero-art__sub-label" x="101" y="112">where it begins</text>
+              <path className="hero-art__route" d="M76 128c42-18 85-14 125 5 20 10 34 24 45 41" />
+              <path className="hero-art__route hero-art__route--soft" d="M76 128c49 2 95 19 135 49 15 11 26 24 35 39" />
+              <circle className="hero-art__pin-ring" cx="76" cy="128" r="17" />
+              <circle className="hero-art__pin-ring hero-art__pin-ring--outer" cx="76" cy="128" r="27" />
+              <circle className="hero-art__pin" cx="76" cy="128" r="5" />
+              <path className="hero-art__sun" d="M187 71v-12M187 95V83M163 83h12M198 83h12M170 66l8 8M196 92l8 8M204 66l-8 8M178 92l-8 8" />
+              <text className="hero-art__label" x="96" y="125">AVEIRO</text>
+              <text className="hero-art__sub-label" x="96" y="137">where it begins</text>
             </svg>
             <div className="hero-art__caption">from the coast of Portugal</div>
           </div>
