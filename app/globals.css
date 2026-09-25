@@ -294,19 +294,6 @@ a {
   stroke-width: 1.5;
 }
 
-.hero-art__caption {
-  position: absolute;
-  right: 0;
-  bottom: 1%;
-  left: 22%;
-  margin: 0;
-  color: rgba(243, 237, 223, 0.58);
-  font-size: clamp(7px, 0.8vw, 9px);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  transform: rotate(-5deg);
-}
-
 .hero-art__label,
 .hero-art__sub-label {
   font-family: var(--font-sans), Arial, sans-serif;
@@ -353,12 +340,6 @@ a {
   width: 8%;
   height: 1px;
   background: var(--tomato);
-}
-
-.hero-panel__date-sub {
-  color: rgba(240, 236, 223, 0.58);
-  font-size: clamp(8px, 0.95vw, 11px);
-  letter-spacing: 0.08em;
 }
 
 .menu-panel {
@@ -669,10 +650,6 @@ a {
 
   .hero-panel__date-rule {
     width: 5%;
-  }
-
-  .hero-panel__date-sub {
-    font-size: 7px;
   }
 
   .menu-panel__intro {
