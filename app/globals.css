@@ -240,20 +240,20 @@ a {
   transform: rotate(1deg);
 }
 
-.hero-art__map {
-  display: block;
-  width: 100%;
+.hero-art__map-source,
+.hero-art__accents {
+  position: absolute;
+  width: 96%;
   height: 94%;
+  left: 2%;
+  top: 1.5%;
   object-fit: contain;
   object-position: top center;
 }
 
-.hero-art__map-outline {
-  fill: rgba(243, 237, 223, 0.04);
-  stroke: rgba(243, 237, 223, 0.8);
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2.25;
+.hero-art__map-source {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(9%) saturate(403%) hue-rotate(351deg) brightness(103%) contrast(94%);
+  opacity: 0.82;
 }
 
 .hero-art__route,
