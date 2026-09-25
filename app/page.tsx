@@ -60,14 +60,23 @@ export default function Home() {
           </div>
 
           <div className="hero-art" aria-hidden="true">
-            <div className="hero-art__halo" />
-            <div className="hero-art__plate">
-              <div className="hero-art__dish" />
-              <div className="hero-art__leaf hero-art__leaf--one" />
-              <div className="hero-art__leaf hero-art__leaf--two" />
-              <div className="hero-art__pepper" />
-            </div>
-            <div className="hero-art__caption">slow food / bright table</div>
+            <svg className="hero-art__map" viewBox="0 0 260 300" fill="none">
+              <title>Portugal, with Aveiro marked on the coast</title>
+              <path
+                className="hero-art__map-outline"
+                d="M48 10c-8 14-9 27-5 41-8 16-8 29-2 43-10 14-8 29-2 40 7 13 7 23 2 37 9 14 8 28 14 41 9 14 11 24 18 31l22 1c14-3 24-9 34-20 10-10 14-23 22-34 7-11 15-22 10-33-6-13 2-25 7-37 4-14 0-27 6-38-9-10-9-23-16-33-10-11-15-23-20-34-12-1-22-6-34-12C74 2 59 3 48 10Z"
+              />
+              <path className="hero-art__map-detail" d="M44 94c14 8 27 14 42 14 14 0 26 5 39 15M53 173c11 5 22 5 32 2 13-4 25-2 36 6M44 42c16 9 29 13 45 12 12-1 24 4 35 10" />
+              <path className="hero-art__route" d="M82 103c48-13 89-12 134 12 18 10 28 25 37 41" />
+              <path className="hero-art__route hero-art__route--soft" d="M82 103c57 5 104 27 145 62 13 11 22 23 28 35" />
+              <circle className="hero-art__pin-ring" cx="82" cy="103" r="17" />
+              <circle className="hero-art__pin-ring hero-art__pin-ring--outer" cx="82" cy="103" r="27" />
+              <circle className="hero-art__pin" cx="82" cy="103" r="5" />
+              <path className="hero-art__sun" d="M191 61v-12M191 85V73M167 73h12M202 73h12M174 56l8 8M200 82l8 8M208 56l-8 8M182 82l-8 8" />
+              <text className="hero-art__label" x="101" y="100">AVEIRO</text>
+              <text className="hero-art__sub-label" x="101" y="112">where it begins</text>
+            </svg>
+            <div className="hero-art__caption">from the coast of Portugal</div>
           </div>
 
           <div className="hero-panel__date">
