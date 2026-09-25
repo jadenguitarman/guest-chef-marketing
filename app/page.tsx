@@ -51,7 +51,6 @@ export default function Home() {
           </div>
 
           <div className="hero-panel__body">
-            <p className="event-kicker">A Portuguese supper by guest chef</p>
             <h1 id="event-title">
               Jaden cooks
               <em>Portugal.</em>
@@ -64,14 +63,12 @@ export default function Home() {
           <div className="hero-art" aria-hidden="true">
             <PortugalMap className="hero-art__map-source" aria-hidden="true" />
             <svg className="hero-art__accents" viewBox="0 0 260 420" fill="none">
-              <path className="hero-art__route" d="M76 128c42-18 85-14 125 5 20 10 34 24 45 41" />
               <path className="hero-art__route hero-art__route--soft" d="M76 128c49 2 95 19 135 49 15 11 26 24 35 39" />
               <circle className="hero-art__pin-ring" cx="76" cy="128" r="17" />
               <circle className="hero-art__pin-ring hero-art__pin-ring--outer" cx="76" cy="128" r="27" />
               <circle className="hero-art__pin" cx="76" cy="128" r="5" />
               <path className="hero-art__sun" d="M187 71v-12M187 95V83M163 83h12M198 83h12M170 66l8 8M196 92l8 8M204 66l-8 8M178 92l-8 8" />
-              <text className="hero-art__label" x="96" y="125">AVEIRO</text>
-              <text className="hero-art__sub-label" x="96" y="137">where it begins</text>
+              
             </svg>
           </div>
 
